@@ -3,9 +3,6 @@ const { MTProto } = require("telegram-mtproto");
 const LAYER = 57;
 const INIT_CONNECTION = 0x69796de9;
 
-const API_ID = 197316;
-const API_HASH = "f5a841647e17ae9da32b9483d4304e45";
-
 class TelegramSignUp {
   constructor(api_id, api_hash, dev_server) {
     this._apiId = api_id;
